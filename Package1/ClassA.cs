@@ -1,5 +1,4 @@
-﻿using Package3;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +8,12 @@ namespace Package1
 {
     public class ClassA
     {
+        IInterfaceE ob1,ob2;
+        public ClassA(IInterfaceE ob)
+        {
+            ob1 = ob;
+            ob2 = ob;
+        }
         public void Method1()
         {
 
@@ -16,15 +21,15 @@ namespace Package1
 
         public void Method2()
         {
-            ClassS s = new ClassS();
-            s.Method3();
-            s.Method1();
+            ob1.Method5();
+            ob1.Method5();
         }
 
         public void Method3()
         {
-            ClassY y = new ClassY();
-            y.Method2();
+            ob2.Method5();
+
         }
     }
 }
+ 

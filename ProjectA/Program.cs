@@ -9,14 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProjectA
-{
+{ 
     class Program
     {
         static void Main(string[] args)
         {
             IKernel kernel = new StandardKernel(new ModuleBinding());
-
-            ClassA a = new ClassA();
+             
+            ClassA a = new ClassA(kernel.Get<IInterfaceE>());
             a.Method1();
             a.Method2();
             a.Method3();
@@ -31,7 +31,7 @@ namespace ProjectA
 
             ClassE e = new ClassE();
             e.Method2();
-            e.Method5();
+            e.Method5(); // robin
 
             ClassH h = new ClassH();
             h.Method2();

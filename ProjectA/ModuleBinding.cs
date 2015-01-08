@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using Ninject;
 using Ninject.Modules;
 using Package1;
+using Package3;
 
 namespace ProjectA
 {
     public class ModuleBinding : NinjectModule
-    {
+    { 
         public override void Load()
         {
-            Bind<IInterfaceSomething>().To<ClassM>();
+            Kernel.Bind<IInterfaceE>().To<ClassS>();
         }
     }
 }

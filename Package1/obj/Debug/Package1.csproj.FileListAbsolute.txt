@@ -5,3 +5,10 @@ E:\Projects\AspNet\ProjectA\Package1\obj\Debug\Package1.dll
 E:\Projects\AspNet\ProjectA\Package1\obj\Debug\Package1.pdb
 E:\Projects\AspNet\ProjectA\Package1\bin\Debug\Package3.dll
 E:\Projects\AspNet\ProjectA\Package1\bin\Debug\Package3.pdb
+E:\DevSkill\Project\Package1\bin\Debug\Package1.dll
+E:\DevSkill\Project\Package1\bin\Debug\Package1.pdb
+E:\DevSkill\Project\Package1\bin\Debug\Package3.dll
+E:\DevSkill\Project\Package1\bin\Debug\Package3.pdb
+E:\DevSkill\Project\Package1\obj\Debug\Package1.csprojResolveAssemblyReference.cache
+E:\DevSkill\Project\Package1\obj\Debug\Package1.dll
+E:\DevSkill\Project\Package1\obj\Debug\Package1.pdb

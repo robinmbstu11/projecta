@@ -86,7 +86,7 @@ namespace ProjectA
             w.Method2();
             w.Method3();
 
-            ClassX x = new ClassX();
+            ClassX x = new ClassX(kernel.Get<IInterfaceE>());
             x.Method1();
 
             ClassY y = new ClassY();

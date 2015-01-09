@@ -15,6 +15,7 @@ namespace ProjectA
         public override void Load()
         {
             Kernel.Bind<IInterfaceE>().To<ClassS>();
+            Kernel.Bind<IInterfaceE>().To<ClassR>();
         }
     }
 }

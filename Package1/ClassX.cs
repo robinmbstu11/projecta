@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassX
+    public class ClassX : IInterfaceE
     {
         IInterfaceE ob1;
         public ClassX(IInterfaceE ob)
@@ -17,5 +17,14 @@ namespace Package1
         {
             ob1.Method5();
         }
+
+        #region IInterfaceE Members
+
+        public void Method5()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
     }
 }

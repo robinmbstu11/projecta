@@ -8,13 +8,15 @@ namespace Package2
 {
     public class ClassZ
     {
+        private IInterface_pak2 ob8;
+        public ClassZ(IInterface_pak2 ob)
+        {
+            ob8 = ob;
+        }
         public void Method2()
         {
-            ClassJ j = new ClassJ();
-            j.Method1();
-
-            ClassQ q = new ClassQ();
-            q.Method3();
+            ob8.Method15();
+            ob8.Method15();
         }
     }
 }

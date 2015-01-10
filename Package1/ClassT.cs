@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Package2;
 
 namespace Package1
 {
-    public class ClassT
+    public class ClassT : IInterface_pak2
     {
         private IInterfaceE _ie;
 
@@ -17,10 +18,16 @@ namespace Package1
 
         public void Method2()
         {
-            ClassX x = new ClassX();
-            x.Method1();
-
             _ie.Method5();
         }
+
+        #region IInterface_pak2 Members
+
+        public void Method15()
+        {
+            
+        }
+
+        #endregion
     }
 }

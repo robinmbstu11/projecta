@@ -36,7 +36,7 @@ namespace ProjectA
             ClassH h = new ClassH();
             h.Method2();
 
-            ClassJ j = new ClassJ();
+            ClassJ j = new ClassJ(kernel.Get<IInterface_pak2>());
             j.Method1();
 
             ClassK k = new ClassK();
@@ -51,7 +51,7 @@ namespace ProjectA
             ClassN n = new ClassN();
             n.Method3();
 
-            ClassO o = new ClassO();
+            ClassO o = new ClassO(kernel.Get<IInterface_pak2>());
             o.Method2();
 
             ClassP p = new ClassP();
@@ -59,10 +59,10 @@ namespace ProjectA
             p.Method2();
             p.Method9();
 
-            ClassL l = new ClassL(p);
+            ClassL l = new ClassL(kernel.Get<IInterfaceP>());
             l.Method1();
 
-            ClassQ q = new ClassQ();
+            ClassQ q = new ClassQ(kernel.Get<IInterface_pak2>());
             q.Method3();
 
             ClassR r = new ClassR();
@@ -73,13 +73,13 @@ namespace ProjectA
             s.Method2();
             s.Method3();
 
-            ClassT t = new ClassT(e);
+            ClassT t = new ClassT(kernel.Get<IInterfaceE>());
             t.Method2();
 
             ClassU u = new ClassU();
             u.Mehthod1();
 
-            ClassV v = new ClassV();
+            ClassV v = new ClassV(kernel.Get<IInterface_pak2>());
             v.Method2();
 
             ClassW w = new ClassW(kernel.Get <IInterfaceSomething>());
@@ -92,7 +92,7 @@ namespace ProjectA
             ClassY y = new ClassY();
             y.Method2();
 
-            ClassZ z = new ClassZ();
+            ClassZ z = new ClassZ(kernel.Get<IInterface_pak2>());
             z.Method2();
         }
     }

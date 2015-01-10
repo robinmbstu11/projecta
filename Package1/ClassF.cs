@@ -9,26 +9,27 @@ namespace Package1
     class ClassF
     {
         private ClassA _a;
+        private IInterfaceE ob5;
 
-        public ClassF()
+        public ClassF(IInterfaceE ob)
         {
-            _a = new ClassA();
+            ob5 = ob;
         }
 
         public void Method1()
         {
-            _a.Method2();
-            _a.Method3();
+            ob5.Method5();
+            ob5.Method5();
         }
 
         public void Method2()
         {
-            _a.Method3();
+            ob5.Method5();
         }
 
         public void Method3()
         {
-            _a.Method1();
+            ob5.Method5();
         }
     }
 }

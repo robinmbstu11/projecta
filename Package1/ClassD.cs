@@ -8,16 +8,16 @@ namespace Package1
 {
     public class ClassD
     {
-        private ClassA _a;
-
-        public ClassD(ClassA a)
+        
+        private IInterfaceDtoA obDtoA;
+        public ClassD(IInterfaceDtoA ob)
         {
-            _a = a;
+            obDtoA = ob;
         }
 
         public void Method1()
         {
-            _a.Method3();
+            obDtoA.MethodDtoA();
         }
     }
 }

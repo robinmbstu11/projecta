@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace Package3
 {
-    internal class ClassG
+    internal class ClassG : IInterfaceHtoG
     {
         internal void Method1()
         {
 
         }
+
+        #region IInterfaceHtoG Members
+
+        public void MethodHtoG()
+        {
+            
+        }
+
+        #endregion
     }
 }

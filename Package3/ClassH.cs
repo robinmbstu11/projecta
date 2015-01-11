@@ -8,10 +8,15 @@ namespace Package3
 {
     public class ClassH
     {
+        private IInterfaceHtoG obhtog;
+        public ClassH(IInterfaceHtoG ob)
+        {
+            obhtog = ob;
+        }
         public void Method2()
         {
-            ClassG g = new ClassG();
-            g.Method1();
+           
+            obhtog.MethodHtoG();
         }
     }
 }

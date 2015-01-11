@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassA 
+    public class ClassA : IInterfaceDtoA
     {
         IInterfaceE obAtoE;
         IInterfaceAtoY obAtoY;
@@ -50,10 +50,19 @@ namespace Package1
 
 public void MethodAtoY()
 {
- 	throw new NotImplementedException();
+ 	
 }
 
 #endregion
+
+#region IInterfaceDtoA Members
+
+public void MethodDtoA()
+{
+    
 }
+
+#endregion
+    }
 }
  

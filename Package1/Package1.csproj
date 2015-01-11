@@ -48,8 +48,12 @@
     <Compile Include="ClassT.cs" />
     <Compile Include="ClassU.cs" />
     <Compile Include="ClassX.cs" />
+    <Compile Include="IInterfaceAtoY.cs" />
+    <Compile Include="IInterfaceDtoA.cs" />
     <Compile Include="IInterfaceE.cs" />
+    <Compile Include="IInterfaceFtoA.cs" />
     <Compile Include="IInterfaceP.cs" />
+    <Compile Include="IInterfaceXtoR.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

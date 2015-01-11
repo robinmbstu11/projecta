@@ -47,6 +47,7 @@
     <Compile Include="ClassS.cs" />
     <Compile Include="ClassW.cs" />
     <Compile Include="ClassY.cs" />
+    <Compile Include="IInterfaceHtoG.cs" />
     <Compile Include="IInterfaceSomething.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

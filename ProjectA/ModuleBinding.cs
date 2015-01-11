@@ -18,6 +18,7 @@ namespace ProjectA
             Kernel.Bind<IInterfaceE>().To<ClassS>();
             Kernel.Bind<IInterfaceAtoY>().To<ClassY>();
             Kernel.Bind<IInterfaceXtoR>().To<ClassR>();
+            Kernel.Bind<IInterfaceDtoA>().To<ClassA>();
 
             Kernel.Bind<IInterface_pak2>().To<ClassK>();
             Kernel.Bind<IInterfaceOtoT>().To<ClassT>();
@@ -28,6 +29,8 @@ namespace ProjectA
             Kernel.Bind<IInterfaceVtoC>().To<ClassC>();
             Kernel.Bind<IInterfaceZtoJ>().To<ClassJ>();
             Kernel.Bind<IInterfaceZtoQ>().To<ClassQ>();
+
+            Kernel.Bind<IInterfaceHtoG>().To<ClassG>();
         }
     }
 }

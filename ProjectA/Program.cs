@@ -27,14 +27,14 @@ namespace ProjectA
             b.Method2();
             b.Method3();
 
-            ClassD d = new ClassD(a);
+            ClassD d = new ClassD(kernel.Get<IInterfaceDtoA>());
             d.Method1();
 
             ClassE e = new ClassE();
             e.Method2();
             e.Method5(); // robin
 
-            ClassH h = new ClassH();
+            ClassH h = new ClassH(kernel.Get<IInterfaceHtoG>());
             h.Method2();
 
             ClassJ j = new ClassJ(kernel.Get<IInterface_pak2>());

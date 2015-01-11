@@ -17,9 +17,10 @@ namespace ProjectA
             IKernel kernel = new StandardKernel(new ModuleBinding());
              
             ClassA a = new ClassA(kernel.Get<IInterfaceE>());
+            ClassA atoy = new ClassA(kernel.Get<IInterfaceAtoY>());
             a.Method1();
             a.Method2();
-            a.Method3();
+            atoy.Method3();
 
             ClassB b = new ClassB();
             b.Method1();
@@ -51,7 +52,7 @@ namespace ProjectA
             ClassN n = new ClassN();
             n.Method3();
 
-            ClassO o = new ClassO(kernel.Get<IInterface_pak2>());
+            ClassO o = new ClassO(kernel.Get<IInterfaceOtoT>());
             o.Method2();
 
             ClassP p = new ClassP();
@@ -62,7 +63,7 @@ namespace ProjectA
             ClassL l = new ClassL(kernel.Get<IInterfaceP>());
             l.Method1();
 
-            ClassQ q = new ClassQ(kernel.Get<IInterface_pak2>());
+            ClassQ q = new ClassQ(kernel.Get<IInterfaceQtoJ>());
             q.Method3();
 
             ClassR r = new ClassR();
@@ -79,21 +80,23 @@ namespace ProjectA
             ClassU u = new ClassU();
             u.Mehthod1();
 
-            ClassV v = new ClassV(kernel.Get<IInterface_pak2>());
+            ClassV v = new ClassV(kernel.Get<IInterfaceVtoC>());
             v.Method2();
 
             ClassW w = new ClassW(kernel.Get <IInterfaceSomething>());
             w.Method2();
             w.Method3();
 
-            ClassX x = new ClassX(kernel.Get<IInterfaceE>());
-            x.Method1();
+            ClassX xtoR = new ClassX(kernel.Get<IInterfaceXtoR>());
+            xtoR.Method1();
 
             ClassY y = new ClassY();
             y.Method2();
 
-            ClassZ z = new ClassZ(kernel.Get<IInterface_pak2>());
+            ClassZ z = new ClassZ(kernel.Get<IInterfaceZtoJ>());
             z.Method2();
+            ClassZ ztoq= new ClassZ(kernel.Get<IInterfaceZtoQ>());
+            ztoq.Method2();
         }
     }
 }

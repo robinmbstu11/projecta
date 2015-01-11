@@ -7,20 +7,19 @@ using Package1;
 
 namespace Package3
 {
-    public class ClassR : IInterfaceE 
+    public class ClassR : IInterfaceXtoR
     {
         public void Method1()
         {
 
         }
 
-        #region IInterfaceE Members
+        #region IInterfaceXtoR Members
 
-        public void Method5()
+        public void MethodXtoR()
         {
-
+           
         }
-
         #endregion
     }
 }

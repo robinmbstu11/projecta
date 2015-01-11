@@ -7,18 +7,18 @@ using Package1;
 
 namespace Package3
 {
-    public class ClassY : IInterfaceE
+    public class ClassY : IInterfaceAtoY
     {
         public int Method2()
         {
             return 5;
         }
 
-        #region IInterfaceE Members
+        #region IInterfaceAtoY Members
 
-        public void Method5()
+        public void MethodAtoY()
         {
-            return Method2();
+            
         }
 
         #endregion

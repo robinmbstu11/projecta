@@ -16,19 +16,18 @@ namespace ProjectA
         public override void Load()
         {
             Kernel.Bind<IInterfaceE>().To<ClassS>();
-            Kernel.Bind<IInterfaceE>().To<ClassY>();
-            Kernel.Bind<IInterfaceE>().To<ClassR>();
+            Kernel.Bind<IInterfaceAtoY>().To<ClassY>();
+            Kernel.Bind<IInterfaceXtoR>().To<ClassR>();
 
             Kernel.Bind<IInterface_pak2>().To<ClassK>();
-            Kernel.Bind<IInterface_pak2>().To<ClassT>();
+            Kernel.Bind<IInterfaceOtoT>().To<ClassT>();
 
-            Kernel.Bind<IInterfaceE>().To<ClassX>();
+            Kernel.Bind<IInterfaceXtoR>().To<ClassR>();
 
-            Kernel.Bind<IInterface_pak2>().To<ClassJ>();
-            Kernel.Bind<IInterface_pak2>().To<ClassC>();
-            Kernel.Bind<IInterface_pak2>().To<ClassQ>();
-
-
+            Kernel.Bind<IInterfaceQtoJ>().To<ClassJ>();
+            Kernel.Bind<IInterfaceVtoC>().To<ClassC>();
+            Kernel.Bind<IInterfaceZtoJ>().To<ClassJ>();
+            Kernel.Bind<IInterfaceZtoQ>().To<ClassQ>();
         }
     }
 }

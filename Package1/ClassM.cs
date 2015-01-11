@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassM : IInterfaceSomething
+    public class ClassM
     {
         public void Method2()
         {

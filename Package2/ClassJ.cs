@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Package2
 {
-    public class ClassJ : IInterface_pak2
+    public class ClassJ :IInterfaceQtoJ,IInterfaceZtoJ
     {
         IInterface_pak2 ob3;
         public ClassJ(IInterface_pak2 ob)
@@ -23,6 +23,24 @@ namespace Package2
         public void Method15()
         {
 
+        }
+
+        #endregion
+
+        #region IInterfaceQtoJ Members
+
+        public void MethodQtoJ()
+        {
+            
+        }
+
+        #endregion
+
+        #region IInterfaceZtoJ Members
+
+        public void MethodZtoJ()
+        {
+            
         }
 
         #endregion

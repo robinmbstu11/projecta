@@ -6,30 +6,37 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    class ClassF
+    class ClassF : IInterfaceFtoA
     {
-        private ClassA _a;
-        private IInterfaceE ob5;
-
-        public ClassF(IInterfaceE ob)
+        private IInterfaceFtoA obFtoA;
+        public ClassF(IInterfaceFtoA ob)
         {
-            ob5 = ob;
+            obFtoA = ob;
         }
 
         public void Method1()
         {
-            ob5.Method5();
-            ob5.Method5();
+            obFtoA.MethodFtoA();
+            obFtoA.MethodFtoA();
         }
 
         public void Method2()
         {
-            ob5.Method5();
+            obFtoA.MethodFtoA();
         }
 
         public void Method3()
         {
-            ob5.Method5();
+            obFtoA.MethodFtoA();
         }
+
+        #region IInterfaceFtoA Members
+
+        public void MethodFtoA()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
     }
 }

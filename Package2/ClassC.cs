@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace Package2
 {
-    public class ClassC : IInterface_pak2
+    public class ClassC : IInterfaceVtoC
     {
         internal void Method1()
         {
             
         }
+        #region IInterfaceVtoC Members
 
-        #region IInterface_pak2 Members
-
-        public void Method15()
+        public void MethodVtoC()
         {
-            
+            throw new NotImplementedException();
         }
 
         #endregion

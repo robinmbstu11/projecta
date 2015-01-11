@@ -7,7 +7,7 @@ using Package2;
 
 namespace Package1
 {
-    public class ClassT : IInterface_pak2
+    public class ClassT : IInterfaceOtoT
     {
         private IInterfaceE _ie;
 

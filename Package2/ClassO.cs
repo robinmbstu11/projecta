@@ -8,14 +8,14 @@ namespace Package2
 {
     public class ClassO
     {
-        IInterface_pak2 ob4;
-        public ClassO(IInterface_pak2 ob)
+        IInterfaceOtoT obOtoT;
+        public ClassO(IInterfaceOtoT ob)
         {
-            ob4 = ob;
+            obOtoT = ob;
         }
         public void Method2()
         {
-            ob4.Method15();
+            obOtoT.MethodOtoT();
         }
     }
 }

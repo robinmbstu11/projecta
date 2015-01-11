@@ -6,21 +6,30 @@ using System.Threading.Tasks;
 
 namespace Package2
 {
-    public class ClassQ : IInterface_pak2
+    public class ClassQ :IInterfaceZtoJ,IInterfaceZtoQ
     {
-        private IInterface_pak2 ob6;
-        public ClassQ(IInterface_pak2 ob)
+        private IInterfaceQtoJ obQtoJ;
+        public ClassQ(IInterfaceQtoJ ob)
         {
-            ob6 = ob;
+            obQtoJ = ob;
         }
         public void Method3()
         {
-            ob6.Method15();
+            obQtoJ.MethodQtoJ();
         }
 
-        #region IInterface_pak2 Members
+        #region IInterfaceZtoJ Members
 
-        public void Method15()
+        public void MethodZtoJ()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
+        #region IInterfaceZtoQ Members
+
+        public void MethodZtoQ()
         {
             throw new NotImplementedException();
         }

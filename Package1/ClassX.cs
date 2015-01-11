@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassX : IInterfaceE
+    public class ClassX
     {
-        IInterfaceE ob1;
-        public ClassX(IInterfaceE ob)
+        IInterfaceXtoR obXtoR;
+        public ClassX(IInterfaceXtoR ob)
         {
-            ob1 = ob;
+            obXtoR = ob;
         }
         public void Method1()
         {
-            ob1.Method5();
+            obXtoR.MethodXtoR();
         }
 
-        #region IInterfaceE Members
+        #region IInterfaceXtoR Members
 
-        public void Method5()
+        public void MethodXtoR()
         {
             throw new NotImplementedException();
         }
@@ -28,3 +28,5 @@ namespace Package1
         #endregion
     }
 }
+
+       

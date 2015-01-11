@@ -8,6 +8,6 @@ namespace Package2
 {
     public interface IInterface_pak2
     {
-        void Method15();
+       void Method15();
     }
 }

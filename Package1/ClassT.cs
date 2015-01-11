@@ -21,11 +21,11 @@ namespace Package1
             _ie.Method5();
         }
 
-        #region IInterface_pak2 Members
+        #region IInterfaceOtoT Members
 
-        public void Method15()
+        public void MethodOtoT()
         {
-            
+            throw new NotImplementedException();
         }
 
         #endregion

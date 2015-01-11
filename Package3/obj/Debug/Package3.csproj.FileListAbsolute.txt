@@ -8,3 +8,7 @@ E:\DevSkill\Project\Package3\bin\Debug\Package3.pdb
 E:\DevSkill\Project\Package3\obj\Debug\Package3.csprojResolveAssemblyReference.cache
 E:\DevSkill\Project\Package3\obj\Debug\Package3.dll
 E:\DevSkill\Project\Package3\obj\Debug\Package3.pdb
+E:\DevSkill\Project\Package3\bin\Debug\Package1.dll
+E:\DevSkill\Project\Package3\bin\Debug\Package2.dll
+E:\DevSkill\Project\Package3\bin\Debug\Package1.pdb
+E:\DevSkill\Project\Package3\bin\Debug\Package2.pdb

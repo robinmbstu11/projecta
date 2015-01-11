@@ -16,10 +16,11 @@ namespace Package1
 
         #region IInterface_pak2 Members
 
-        void Method15()
+        void IInterface_pak2.Method15()
         {
-           
+            throw new NotImplementedException();
         }
+
         #endregion
     }
 }
